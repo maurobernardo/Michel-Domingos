@@ -6,7 +6,7 @@ import { Section } from "./Section";
 
 const timeline = [
   {
-    title: "Licenciatura em Engenharia Electrotécnica",
+    title: "Licenciatura em Engenharia Eletrónica",
     meta: "Universidade Jean Piaget da Beira",
     detail: "Formação superior com base em sistemas elétricos, eletrónica, energia e práticas laboratoriais.",
     icon: GraduationCap,

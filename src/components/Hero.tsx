@@ -27,7 +27,7 @@ export function Hero() {
             Michel Domingos Nhampossa
           </h1>
           <p className="mt-5 text-xl font-black text-violet-700 dark:text-violet-200 sm:text-2xl">
-            Estudante de Engenharia Electrotécnica
+            Estudante de Engenharia Eletrónica
           </p>
           <p className="mt-5 max-w-2xl text-base leading-8 text-slate-700 dark:text-violet-100/80 sm:text-lg">
             Jovem moçambicano focado em energia, sistemas elétricos, automação e

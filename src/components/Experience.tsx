@@ -19,7 +19,7 @@ const experiences = [
     title: "Experiência Prática em Telecomunicações",
     subtitle: "Ambiente real de produção e transmissão televisiva",
     summary:
-      "Durante uma visita de estudo à Televisão de Moçambique, tive contacto direto com equipamentos profissionais utilizados em sistemas de produção e transmissão televisiva. A experiência permitiu compreender sistemas eletrónicos reais, desde a configuração dos equipamentos até ao processo de transmissão do sinal, reforçando o meu interesse por Engenharia Electrónica e Telecomunicações.",
+      "Durante uma visita de estudo à Televisão de Moçambique, tive contacto direto com equipamentos profissionais utilizados em sistemas de produção e transmissão televisiva. A experiência permitiu compreender sistemas eletrónicos reais, desde a configuração dos equipamentos até ao processo de transmissão do sinal, reforçando o meu interesse por Engenharia Eletrónica e Telecomunicações.",
     icon: RadioTower,
     images: ["/TVM/tvm1.jpeg", "/TVM/tvm2.jpeg", "/TVM/tvm3.jpeg"],
   },

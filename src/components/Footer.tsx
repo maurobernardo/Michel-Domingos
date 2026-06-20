@@ -7,7 +7,7 @@ export function Footer() {
         <div>
           <p className="text-xl font-black">Michel Domingos Nhampossa</p>
           <p className="mt-2 max-w-xl text-sm leading-6 text-violet-200">
-            Estudante de Engenharia Electrotécnica, focado em energia, tecnologia
+            Estudante de Engenharia Eletrónica, focado em energia, tecnologia
             e soluções técnicas com impacto profissional.
           </p>
         </div>

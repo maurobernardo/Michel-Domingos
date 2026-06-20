@@ -154,12 +154,12 @@ export const profileCards = [
   { label: "Nacionalidade", value: "Moçambique", icon: MapPin },
   { label: "Naturalidade", value: "Província de Inhambane", icon: UserRound },
   { label: "Idade", value: "20 anos", icon: Sparkles },
-  { label: "Área", value: "Engenharia Electrotécnica", icon: Zap },
+  { label: "Área", value: "Engenharia Eletrónica", icon: Zap },
 ];
 
 export const educationCards = [
   {
-    title: "Licenciatura em Engenharia Electrotécnica",
+    title: "Licenciatura em Engenharia Eletrónica",
     description: "Percurso académico focado em energia, sistemas elétricos, circuitos, eletrónica e automação.",
     icon: GraduationCap,
   },

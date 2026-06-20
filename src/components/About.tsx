@@ -25,7 +25,7 @@ export function About() {
           <h3 className="relative text-2xl font-black">Sobre Michel</h3>
           <p className="relative mt-4 text-base leading-8 text-violet-50">
             Jovem moçambicano natural da Província de Inhambane, estudante do
-            3º ano de Engenharia Electrotécnica na Universidade Jean Piaget da
+            3º ano de Engenharia Eletrónica na Universidade Jean Piaget da
             Beira, apaixonado por energia, tecnologia, sistemas elétricos,
             automação e inovação.
           </p>

@@ -1,7 +1,7 @@
 # Portfolio Michel Domingos Nhampossa
 
 Portfolio profissional, moderno e responsivo para Michel Domingos Nhampossa,
-estudante de Engenharia Electrotecnica na Universidade Jean Piaget da Beira.
+estudante de Engenharia Eletronica na Universidade Jean Piaget da Beira.
 
 ## Tecnologias
 

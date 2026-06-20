@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Michel Domingos Nhampossa | Portfólio",
   description:
-    "Portfólio profissional de Michel Domingos Nhampossa, estudante de Engenharia Electrotécnica em Moçambique.",
+    "Portfólio profissional de Michel Domingos Nhampossa, estudante de Engenharia Eletrónica em Moçambique.",
 };
 
 export default function RootLayout({
