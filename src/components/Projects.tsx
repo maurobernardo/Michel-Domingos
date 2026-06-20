@@ -32,7 +32,7 @@ export function Projects() {
                   <Icon size={28} aria-hidden />
                 </div>
                 <span className="rounded-full border border-violet-300/70 bg-violet-50 px-3 py-1 text-xs font-black text-violet-700 dark:border-violet-400/50">
-                  Projeto exemplo
+                  Projeto
                 </span>
               </div>
               <h3 className="relative text-2xl font-black text-violet-950 dark:text-white">{project.title}</h3>

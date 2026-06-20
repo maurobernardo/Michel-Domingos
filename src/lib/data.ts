@@ -56,6 +56,10 @@ export type Certificate = {
 
 export const phoneNumber = "852390824";
 export const emailAddress = "micheldomingosnhampossa@gmail.com";
+export const linkedInUrl =
+  "https://www.linkedin.com/in/michel-domingos-nhampossa-5906ba400?utm_source=share_via&utm_content=profile&utm_medium=member_android";
+export const instagramUrl =
+  "https://www.instagram.com/michel__domingos?igsh=ZG00cXZwMzAxdWJ1";
 
 export const navLinks: NavLink[] = [
   { label: "Início", href: "#inicio", icon: Home },
@@ -70,13 +74,13 @@ export const socialLinks = [
   {
     label: "LinkedIn",
     value: "Perfil LinkedIn",
-    href: "https://www.linkedin.com/in/micheldomingosnhampossa",
+    href: linkedInUrl,
     icon: BriefcaseBusiness,
   },
   {
     label: "Instagram",
     value: "Perfil Instagram",
-    href: "https://www.instagram.com/micheldomingosnhampossa",
+    href: instagramUrl,
     icon: Camera,
   },
   {
@@ -227,7 +231,7 @@ export const contactLinks = [
   { label: "Telefone", value: phoneNumber, href: `tel:+258${phoneNumber}`, icon: Phone },
   { label: "WhatsApp", value: phoneNumber, href: `https://wa.me/258${phoneNumber}`, icon: MessageCircle },
   { label: "Email", value: emailAddress, href: `mailto:${emailAddress}`, icon: Mail },
-  { label: "LinkedIn", value: "Perfil profissional", href: "https://www.linkedin.com/in/micheldomingosnhampossa", icon: BriefcaseBusiness },
-  { label: "Instagram", value: "Perfil social", href: "https://www.instagram.com/micheldomingosnhampossa", icon: Camera },
+  { label: "LinkedIn", value: "Perfil profissional", href: linkedInUrl, icon: BriefcaseBusiness },
+  { label: "Instagram", value: "Perfil social", href: instagramUrl, icon: Camera },
   { label: "Localização", value: "Moçambique", href: "#contacto", icon: MapPin },
 ];

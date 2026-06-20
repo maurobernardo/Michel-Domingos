@@ -21,7 +21,7 @@ export function Hero() {
         >
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-violet-300/70 bg-white/70 px-4 py-2 text-sm font-black text-violet-700 shadow-sm dark:border-violet-400/50 dark:bg-white/10 dark:text-violet-100">
             <Sparkles size={16} aria-hidden />
-            Portfólio de Engenharia Electrotécnica
+            Portfólio de Michel Domingos
           </div>
           <h1 className="max-w-4xl text-4xl font-black leading-tight tracking-tight text-violet-950 dark:text-white sm:text-5xl lg:text-7xl">
             Michel Domingos Nhampossa
@@ -77,7 +77,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20, scale: 0.96 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.85, ease: "easeOut", delay: 0.15 }}
-          className="relative mx-auto w-full max-w-xs self-center sm:max-w-sm lg:max-w-sm"
+          className="relative mx-auto w-full max-w-sm self-center sm:max-w-md lg:max-w-[28rem]"
         >
           <div className="absolute -inset-5 rounded-[3rem] bg-violet-500/20 blur-3xl" />
           <div className="relative overflow-hidden rounded-[2.75rem] border border-violet-300/70 bg-white/55 p-3 shadow-2xl shadow-violet-950/15 backdrop-blur-xl transition-colors dark:border-violet-400/50 dark:bg-white/10 sm:p-4">
@@ -87,7 +87,7 @@ export function Hero() {
                 alt="Foto de Michel Domingos Nhampossa"
                 fill
                 priority
-                sizes="(max-width: 1024px) 90vw, 360px"
+                sizes="(max-width: 1024px) 90vw, 420px"
                 className="object-contain object-bottom"
               />
             </div>

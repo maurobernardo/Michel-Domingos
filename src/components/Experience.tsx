@@ -13,7 +13,7 @@ const experiences = [
     summary:
       "Os estudantes realizaram uma visita de estudo à TVA, onde conheceram equipamentos e processos usados na produção e transmissão de conteúdos audiovisuais. Foram apresentados equipamentos analógicos, que marcaram a história da radiodifusão, e tecnologias digitais utilizadas atualmente. A experiência fortaleceu a compreensão do funcionamento da televisão e da rádio, contribuindo para a formação académica e profissional.",
     icon: Tv,
-    images: ["/experience-tva-1.svg", "/experience-tva-2.svg", "/experience-tva-3.svg"],
+    images: ["/TVA/tva6.jpeg", "/TVA/tva4.jpeg", "/TVA/tva5.jpeg"],
   },
   {
     title: "Experiência Prática em Telecomunicações",
@@ -21,7 +21,7 @@ const experiences = [
     summary:
       "Durante uma visita de estudo à Televisão de Moçambique, tive contacto direto com equipamentos profissionais utilizados em sistemas de produção e transmissão televisiva. A experiência permitiu compreender sistemas eletrónicos reais, desde a configuração dos equipamentos até ao processo de transmissão do sinal, reforçando o meu interesse por Engenharia Electrónica e Telecomunicações.",
     icon: RadioTower,
-    images: ["/experience-telecom-1.svg", "/experience-telecom-2.svg", "/experience-telecom-3.svg"],
+    images: ["/TVM/tvm1.jpeg", "/TVM/tvm2.jpeg", "/TVM/tvm3.jpeg"],
   },
 ];
 

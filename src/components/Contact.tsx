@@ -16,19 +16,19 @@ export function Contact() {
     >
       <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
         <motion.div
-          initial={{ opacity: 0, x: -24 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="relative overflow-hidden rounded-[2.5rem] border border-violet-300/70 bg-gradient-to-br from-violet-950 to-violet-700 p-7 text-white shadow-2xl shadow-violet-950/20 dark:border-violet-400/50"
+          className="relative overflow-hidden rounded-[2rem] border border-violet-300/70 bg-gradient-to-br from-violet-950 to-violet-700 p-4 text-white shadow-2xl shadow-violet-950/20 dark:border-violet-400/50 sm:rounded-[2.5rem] sm:p-7"
         >
           <div className="absolute -bottom-16 -right-16 h-52 w-52 rounded-full bg-fuchsia-400/25 blur-3xl" />
-          <h3 className="relative text-2xl font-black">Informações de contacto</h3>
-          <p className="relative mt-3 leading-7 text-violet-100">
+          <h3 className="relative text-xl font-black sm:text-2xl">Informações de contacto</h3>
+          <p className="relative mt-3 text-sm leading-7 text-violet-100 sm:text-base">
             Use estes canais para solicitar portfólio, marcar uma conversa ou
             partilhar uma oportunidade de estágio.
           </p>
-          <div className="relative mt-8 grid gap-3">
+          <div className="relative mt-6 grid gap-3 sm:mt-8">
             {contactLinks.map((item) => {
               const Icon = item.icon;
               const isExternal = item.href.startsWith("http");
@@ -39,14 +39,16 @@ export function Contact() {
                   href={item.href}
                   target={isExternal ? "_blank" : undefined}
                   rel={isExternal ? "noopener noreferrer" : undefined}
-                  className="flex items-center gap-4 rounded-[1.75rem] border border-violet-300/60 bg-white/10 p-4 transition hover:-translate-y-1 hover:bg-white hover:text-violet-950 dark:border-violet-400/50"
+                  className="flex min-w-0 items-center gap-3 rounded-[1.5rem] border border-violet-300/60 bg-white/10 p-3 transition hover:-translate-y-1 hover:bg-white hover:text-violet-950 dark:border-violet-400/50 sm:gap-4 sm:rounded-[1.75rem] sm:p-4"
                 >
-                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-white text-violet-700">
-                    <Icon size={22} aria-hidden />
+                  <span className="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-white text-violet-700 sm:h-11 sm:w-11">
+                    <Icon size={21} aria-hidden />
                   </span>
                   <span className="min-w-0">
                     <span className="block text-sm opacity-80">{item.label}</span>
-                    <span className="break-words font-black">{item.value}</span>
+                    <span className="block break-words text-sm font-black leading-6 sm:text-base">
+                      {item.value}
+                    </span>
                   </span>
                 </a>
               );
@@ -55,95 +57,51 @@ export function Contact() {
         </motion.div>
 
         <motion.form
-          initial={{ opacity: 0, x: 24 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="rounded-[2.5rem] border border-violet-300/70 bg-[#f8f5ff] p-6 shadow-xl shadow-violet-950/8 dark:border-violet-400/50 dark:bg-white/10 sm:p-7"
+          className="rounded-[2rem] border border-violet-300/70 bg-[#f8f5ff] p-4 shadow-xl shadow-violet-950/8 dark:border-violet-400/50 dark:bg-white/10 sm:rounded-[2.5rem] sm:p-7"
         >
           <div className="grid gap-5 sm:grid-cols-2">
             <label className="grid gap-2 text-sm font-black text-violet-950 dark:text-white">
               Nome completo
-              <input
-                type="text"
-                name="name"
-                placeholder="Seu nome"
-                className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-              />
+              <input type="text" name="name" placeholder="Seu nome" className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100" />
             </label>
-
             <label className="grid gap-2 text-sm font-black text-violet-950 dark:text-white">
               Email
-              <input
-                type="email"
-                name="email"
-                placeholder="email@exemplo.com"
-                className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-              />
+              <input type="email" name="email" placeholder="email@exemplo.com" className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100" />
             </label>
-
             <label className="grid gap-2 text-sm font-black text-violet-950 dark:text-white">
               Telefone / WhatsApp
-              <input
-                type="tel"
-                name="phone"
-                placeholder="+258 852 390 824"
-                className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-              />
+              <input type="tel" name="phone" placeholder="+258 852 390 824" className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100" />
             </label>
-
             <label className="grid gap-2 text-sm font-black text-violet-950 dark:text-white">
               Tipo de contacto
-              <select
-                name="contactType"
-                className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-                defaultValue=""
-              >
-                <option value="" disabled>
-                  Selecione uma opção
-                </option>
+              <select name="contactType" className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition focus:border-violet-500 focus:ring-4 focus:ring-violet-100" defaultValue="">
+                <option value="" disabled>Selecione uma opção</option>
                 <option>Estágio</option>
                 <option>Projeto académico</option>
                 <option>Colaboração técnica</option>
                 <option>Outra oportunidade</option>
               </select>
             </label>
-
             <label className="grid gap-2 text-sm font-black text-violet-950 dark:text-white">
               Empresa / Instituição
-              <input
-                type="text"
-                name="organization"
-                placeholder="Nome da organização"
-                className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-              />
+              <input type="text" name="organization" placeholder="Nome da organização" className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100" />
             </label>
-
             <label className="grid gap-2 text-sm font-black text-violet-950 dark:text-white">
               Assunto
-              <input
-                type="text"
-                name="subject"
-                placeholder="Ex: Oportunidade de estágio"
-                className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-              />
+              <input type="text" name="subject" placeholder="Ex: Oportunidade de estágio" className="rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100" />
             </label>
           </div>
 
           <label className="mt-5 grid gap-2 text-sm font-black text-violet-950 dark:text-white">
             Mensagem
-            <textarea
-              name="message"
-              rows={7}
-              placeholder="Escreva a sua mensagem..."
-              className="resize-none rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100"
-            />
+            <textarea name="message" rows={7} placeholder="Escreva a sua mensagem..." className="resize-none rounded-2xl border border-violet-300/70 bg-white px-4 py-3 text-violet-950 outline-none transition placeholder:text-slate-400 focus:border-violet-500 focus:ring-4 focus:ring-violet-100" />
           </label>
 
-          <button
-            type="button"
-            className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-violet-700 px-6 py-3 text-sm font-black text-white shadow-[0_18px_45px_rgba(124,58,237,0.28)] transition hover:-translate-y-1 hover:bg-violet-800 sm:w-auto"
-          >
+          <button type="button" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-violet-700 px-6 py-3 text-sm font-black text-white shadow-[0_18px_45px_rgba(124,58,237,0.28)] transition hover:-translate-y-1 hover:bg-violet-800 sm:w-auto">
             Enviar mensagem
             <Send size={18} aria-hidden />
           </button>
