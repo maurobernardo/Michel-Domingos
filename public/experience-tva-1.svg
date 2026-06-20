@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#d946ef"/></linearGradient></defs>
+  <rect width="900" height="620" rx="42" fill="#f5f3ff"/>
+  <circle cx="740" cy="95" r="150" fill="#ede9fe"/>
+  <rect x="120" y="130" width="560" height="330" rx="28" fill="url(#g)"/>
+  <rect x="165" y="180" width="470" height="240" rx="18" fill="#fff" opacity=".92"/>
+  <path d="M350 245 500 310 350 375Z" fill="#7c3aed"/>
+  <rect x="255" y="490" width="290" height="34" rx="17" fill="#7c3aed"/>
+  <text x="450" y="570" text-anchor="middle" font-family="Arial" font-size="32" font-weight="800" fill="#2e1065">TVA - Produção Audiovisual</text>
+</svg>

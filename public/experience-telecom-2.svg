@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs><radialGradient id="r" cx=".5" cy=".45" r=".55"><stop stop-color="#fff"/><stop offset="1" stop-color="#ddd6fe"/></radialGradient></defs>
+  <rect width="900" height="620" rx="42" fill="url(#r)"/>
+  <circle cx="450" cy="300" r="190" fill="none" stroke="#7c3aed" stroke-width="18"/>
+  <circle cx="450" cy="300" r="120" fill="none" stroke="#a855f7" stroke-width="14"/>
+  <circle cx="450" cy="300" r="46" fill="#4c1d95"/>
+  <path d="M450 116v-72M450 556v-72M266 300h-72M706 300h-72" stroke="#d946ef" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="570" text-anchor="middle" font-family="Arial" font-size="32" font-weight="800" fill="#2e1065">Sinal e Transmissão</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <rect width="900" height="620" rx="42" fill="#faf5ff"/>
+  <rect x="150" y="120" width="600" height="360" rx="36" fill="#4c1d95"/>
+  <rect x="205" y="175" width="490" height="250" rx="24" fill="#fff"/>
+  <path d="M305 355h290M330 310h240M360 265h180" stroke="#7c3aed" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="250" cy="500" r="34" fill="#d946ef"/>
+  <circle cx="650" cy="500" r="34" fill="#7c3aed"/>
+  <text x="450" y="570" text-anchor="middle" font-family="Arial" font-size="32" font-weight="800" fill="#2e1065">Ambiente Real</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <rect width="900" height="620" rx="42" fill="#2e1065"/>
+  <rect x="120" y="120" width="660" height="380" rx="34" fill="#fff" opacity=".95"/>
+  <path d="M220 380h460M220 310h460M220 240h460" stroke="#ede9fe" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="300" cy="240" r="32" fill="#7c3aed"/>
+  <circle cx="570" cy="310" r="32" fill="#d946ef"/>
+  <circle cx="430" cy="380" r="32" fill="#8b5cf6"/>
+  <text x="450" y="570" text-anchor="middle" font-family="Arial" font-size="32" font-weight="800" fill="#fff">Sistemas Eletrónicos</text>
+</svg>

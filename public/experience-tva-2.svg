@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <rect width="900" height="620" rx="42" fill="#fff"/>
+  <rect x="80" y="90" width="740" height="440" rx="36" fill="#ede9fe"/>
+  <circle cx="250" cy="305" r="120" fill="#7c3aed"/>
+  <circle cx="250" cy="305" r="70" fill="#fff"/>
+  <rect x="430" y="160" width="230" height="70" rx="18" fill="#6d28d9"/>
+  <rect x="430" y="275" width="310" height="70" rx="18" fill="#a855f7"/>
+  <rect x="430" y="390" width="190" height="70" rx="18" fill="#d946ef"/>
+  <text x="450" y="570" text-anchor="middle" font-family="Arial" font-size="32" font-weight="800" fill="#2e1065">Equipamentos Analógicos</text>
+</svg>
